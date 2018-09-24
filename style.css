@@ -1,0 +1,41 @@
+body {
+  background-color: #BE8AD3;
+}
+
+.rounded:hover {
+  transform: rotate(360deg)
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 100;
+  transition: all .4s;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.thread-img {
+  max-width: 50%;
+  margin: 10%;
+  transition: all 4s;
+  opacity: .9;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 1rem;
+  }
+}
